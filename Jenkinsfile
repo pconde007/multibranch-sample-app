@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	options {
-		buildDiscarder logRotator(atifactDaysToKeepStr: '', artifactNumToKeepStr: '5', dayToKeepStr: '', numToKeepStr: '5')
+		buildDiscarder logRotator(atifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')
 		disableConcurrentBuilds()
 	}
 	stages {
